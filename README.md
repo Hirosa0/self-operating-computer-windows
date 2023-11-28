@@ -1,4 +1,4 @@
-<h1 align="center">Self-Operating Computer Framework</h1>
+<h1 align="center">Self-Operating Computer Framework for Windows</h1>
 
 <p align="center">
   <strong>A framework to enable multimodal models to operate a computer.</strong>
@@ -33,7 +33,7 @@ Below are instructions to set up the Self-Operating Computer Framework locally o
 
 1. **Clone the repo** to a directory on your computer:
 ```
-git clone https://github.com/OthersideAI/self-operating-computer.git
+git clone https://github.com/OthersideAI/self-operating-computer-windows.git
 ```
 2. **Cd into directory**:
 
@@ -48,7 +48,7 @@ python3 -m venv venv
 ```
 4. **Activate the virtual environment**:
 ```
-source venv/bin/activate
+./venv/bin/activate
 ```
 5. **Install the project requirements**:
 ```
@@ -70,12 +70,7 @@ OPENAI_API_KEY='your-key-here'
 ```
 operate
 ```
-10. **Final Step**: As a last step, the Terminal app will ask for permission for "Screen Recording" and "Accessibility" in the "Security & Privacy" page of Mac's "System Preferences".
 
-<div align="center">
-  <img src="https://github.com/OthersideAI/self-operating-computer/blob/main/readme/terminal-access-1.png" width="300"  style="margin: 10px;"/>
-  <img src="https://github.com/OthersideAI/self-operating-computer/blob/main/readme/terminal-access-2.png" width="300"  style="margin: 10px;"/>
-</div>
 
 ### Contributions are Welcomed! Some Ideas: 
 - **Prompt Improvements**: Noticed any areas for prompt improvements? Feel free to make suggestions or submit a pull request (PR). 
@@ -90,5 +85,3 @@ Stay updated with the latest developments:
 - Follow HyperWriteAI on [Twitter](https://twitter.com/HyperWriteAI).
 - Follow HyperWriteAI on [LinkedIn](https://www.linkedin.com/company/othersideai/).
 
-### Compatibility
-- This project is only compatible with MacOS at this time. 
