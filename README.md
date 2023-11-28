@@ -48,7 +48,7 @@ python3 -m venv venv
 ```
 4. **Activate the virtual environment**:
 ```
-./venv/bin/activate
+.\venv\Scripts\activate
 ```
 5. **Install the project requirements**:
 ```
